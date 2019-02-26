@@ -1,0 +1,61 @@
+body {
+  font-size: 14px;
+  font-family: "Arial", sans-serif;  
+  line-height: 22px;
+  padding: 10px;  
+}
+
+.container {
+  width: 1000px;
+}
+
+.header {
+  border-bottom: 2px solid black;
+}
+
+.column-3 {
+  text-align: right;
+}
+
+.main {
+  border-bottom: 2px solid black;
+}
+
+.column-4 {
+  height: 400px;
+}
+
+.column-5 {
+  height: 200px;
+}
+
+.column-6 {
+  width: 140px;
+  height:150px;
+  margin: 0px 10px 10px 0px;
+  background-color: rgb(90, 83, 83);
+}
+
+.column-7 {
+  height:150px;
+  top: 50px;
+}
+
+.column-9 {
+  height: 200px;
+}
+
+.column-12 {
+  background-color: white;
+}
+
+.column-13 {
+  height: 80px;
+}
+
+.column-14 {
+  height: 80px;
+}
+.background {
+  background-color: rgb(90, 83, 83);
+}

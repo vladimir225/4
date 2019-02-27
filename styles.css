@@ -11,14 +11,26 @@ body {
 
 .header {
   border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.column-1 {
+  height: 100%;
+}
+
+.column-2 {
+  height: 100%;
 }
 
 .column-3 {
   text-align: right;
+  padding: 10px;
 }
 
 .main {
   border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .column-4 {
@@ -29,28 +41,65 @@ body {
   height: 200px;
 }
 
+.my-grid {
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+
+.my-grid-column {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+  width: 20%;
+}
+
 .column-6 {
-  width: 140px;
-  height:150px;
-  margin: 0px 10px 10px 0px;
+  height:100px;
   background-color: rgb(90, 83, 83);
 }
 
 .column-7 {
   height:150px;
+  position: relative;
   top: 50px;
+}
+
+.column-8 {
+  height: 200px;
 }
 
 .column-9 {
   height: 200px;
 }
 
+.column-10 {
+  height: 100%;
+}
+
+.column-11 {
+  height: 100%;
+}
+
+.footer {
+  padding-top: 10px;
+}
+
 .column-12 {
   background-color: white;
 }
 
+.columnSize-13 {
+  padding-bottom: 15px;
+}
+
 .column-13 {
   height: 80px;
+}
+
+.columnSize-14 {
+  padding-top: 15px;
 }
 
 .column-14 {
